@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+.hide {
+	display: none;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.search {
+	width: 19% !important;
+	border-radius: 0px 4px 4px 0px !important;
+	border-left: none !important;
+}
+
+.search_input {
+	border-radius: 4px 0px 0px 4px !important;
+	border-right: none !important;
+}
+
+.search_input:focus {
+	background-color: #f9f9e1;
+}
+
+#float {
+	position: fixed;
+	width: 100%;
+	top:0;
+	left:0;
+}
